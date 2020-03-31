@@ -2849,7 +2849,7 @@ html.no-csstransitions .home-content__main {
     font-size: 1.4rem;
 }
 
-.clients-testimonials .testimonials .slick-arrow {
+.slick-arrow {
     position: absolute;
     top: 7.2rem;
     width: 66px;
@@ -2870,17 +2870,17 @@ html.no-csstransitions .home-content__main {
     z-index: 2;
 }
 
-.clients-testimonials .testimonials .slick-prev {
+.slick-prev {
     left: -130px;
     background-image: url("../images/left-arrow.png");
 }
 
-.clients-testimonials .testimonials .slick-next {
+.slick-next {
     right: -130px;
     background-image: url("../images/right-arrow.png");
 }
 
-.clients-testimonials .testimonials .slick-dots {
+.slick-dots {
     margin-top: -0.6px;
 }
 
@@ -2896,10 +2896,10 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials p {
         font-size: 2.6rem;
     }
-    .clients-testimonials .testimonials .slick-prev {
+    .slick-prev {
         left: -100px;
     }
-    .clients-testimonials .testimonials .slick-next {
+    .slick-next {
         right: -100px;
     }
 }
@@ -2917,14 +2917,14 @@ html.no-csstransitions .home-content__main {
     .clients-testimonials .testimonials {
         margin: 0 2rem;
     }
-    .clients-testimonials .testimonials .slick-arrow {
+    .slick-arrow {
         top: auto;
         bottom: 3rem;
     }
-    .clients-testimonials .testimonials .slick-prev {
+    .slick-prev {
         left: 0;
     }
-    .clients-testimonials .testimonials .slick-next {
+    .slick-next {
         right: 0;
     }
 }
