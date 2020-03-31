@@ -2210,7 +2210,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
+    /*font-size: 2.4rem;*/
+    font-size: 18px;
     line-height: 1.75;
     text-align: center;
     max-width: 1024px;
@@ -2760,6 +2761,8 @@ html.no-csstransitions .home-content__main {
 .clients__slide > img{
     margin: auto;
     margin-bottom: 20px;
+    width: calc(992px * 25 /100);
+    height: calc(768px * 25 /100);
 }
 
 .clients__slide > p:first-of-type{
@@ -2813,7 +2816,8 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials p {
     font-family: "lora-regular", serif;
-    font-size: 3rem;
+    /*font-size: 3rem;*/
+    font-size: 18px;
     line-height: 1.8;
     color: #555555;
     margin-bottom: 6rem;
