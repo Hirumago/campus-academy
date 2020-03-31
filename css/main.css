@@ -2750,10 +2750,31 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: .55;
+    /*opacity: .55;*/
     padding: 1.5rem 2.8rem;
-    -webkit-transition: opacity 0.5s ease-in-out;
-    transition: opacity 0.5s ease-in-out;
+    /*-webkit-transition: opacity 0.5s ease-in-out;*/
+    /*transition: opacity 0.5s ease-in-out;*/
+    text-align: center;
+}
+
+.clients__slide > img{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.clients__slide > p:first-of-type{
+    text-align: center;
+}
+
+.clients__slide > p{
+    text-align: justify;
+}
+
+.clients__slide > p > img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 .clients__slide:hover, .clients__slide:focus {
@@ -3096,13 +3117,21 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-secondary {
-    width: 35%;
+    text-align: justify;
+}
+
+.contact-secondary p:last-of-type{
+    margin-bottom: 0;
+}
+
+.contact-secondary h3{
+    margin-bottom: 20px !important;
 }
 
 .contact-secondary::before {
     content: "";
     display: block;
-    width: 35%;
+    width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
