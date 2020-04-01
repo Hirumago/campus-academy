@@ -3634,6 +3634,9 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+.no-margin-top{
+    margin-top: 0;
+}
 
 #pres-rasci{
     border-collapse: collapse;
