@@ -3634,3 +3634,68 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+#pres-rasci{
+    border-collapse: collapse;
+    width: auto;
+    min-width: 20px;
+    margin-bottom: 0;
+}
+
+#pres-rasci tr > td:first-of-type{
+    text-align: center;
+}
+
+#pres-rasci tr > td{
+    width: auto;
+}
+
+#rasci {
+    border-collapse: collapse;
+}
+
+#rasci tr:first-of-type > th:first-of-type{
+    border: none;
+}
+
+#rasci tr:first-of-type > th{
+    text-align: center;
+}
+
+#pres-rasci td, #rasci th, #rasci td{
+    border: black 1px solid;
+    padding: 5px 10px;
+}
+
+#rasci tr > th:first-of-type{
+    text-align: left;
+}
+
+#rasci td{
+    text-align: center;
+}
+
+.rasci-r{
+    background-color: rgba(128, 0, 128, 0.71);
+    color: white;
+}
+
+.rasci-a{
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+}
+
+.rasci-s{
+    background-color: orange;
+    color: white;
+}
+
+.rasci-c{
+    background-color: rgba(0, 107, 255, 0.8);
+    color: white;
+}
+
+.rasci-i{
+    background-color: green;
+    color: white;
+}
