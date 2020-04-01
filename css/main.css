@@ -3702,3 +3702,7 @@ footer .row {
     background-color: green;
     color: white;
 }
+
+.service-text p:first-of-type{
+    margin-bottom: 10px;
+}
