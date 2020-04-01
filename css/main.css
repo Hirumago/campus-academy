@@ -3706,3 +3706,7 @@ footer .row {
 .service-text p:first-of-type{
     margin-bottom: 10px;
 }
+
+.service-text p:last-of-type{
+    font-style: italic;
+}
