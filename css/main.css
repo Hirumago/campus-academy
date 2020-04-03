@@ -3635,7 +3635,10 @@ footer .row {
 
 /*# sourceMappingURL=main.css.map */
 .no-margin-top{
-    margin-top: 0;
+    margin-top: 0 !important;
+}
+.no-margin-bottom{
+    margin-bottom: 0 !important;
 }
 
 #pres-rasci{
@@ -3709,4 +3712,52 @@ footer .row {
 
 .service-text p:last-of-type{
     font-style: italic;
+}
+
+
+#architecture p{
+    text-align: justify;
+    margin-bottom: 10px
+}
+#architecture ul{
+    padding-left: 10px;
+}
+#architecture ul li{
+    text-align: left
+}
+
+.archi-img{
+    margin: 20px auto 0 auto;
+}
+
+#offres{
+    border-collapse: collapse;
+}
+
+#offres tr:first-of-type > th:not(:first-of-type), #offres tr:not(:first-of-type) > th, #offres tr > td{
+    border: 1px solid black;
+}
+
+#offres tr:first-of-type > th:first-of-type{
+    border-bottom: 1px solid black;
+}
+
+#offres th{
+    text-align: center;
+}
+
+#offres th, #offres td{
+    padding: 10px;
+}
+
+#offres ul{
+    margin-bottom: 0;
+}
+
+.ta-center{
+    text-align: center !important;
+}
+
+.mb-10{
+    margin-bottom: 10px;
 }
