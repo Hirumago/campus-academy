@@ -9,7 +9,7 @@
  *      ## links
  *  # typography & general theme styles
  *      ## Lists
- *      ## responsive video container
+ *      ## responsive videos container
  *      ## floated image
  *      ## tables
  *      ## Spacing
@@ -385,7 +385,7 @@ dd {
 
 
 /* ------------------------------------------------------------------- 
- * ## responsive video container
+ * ## responsive videos container
  * ------------------------------------------------------------------- */
 .video-container {
     position: relative;
@@ -3122,10 +3122,6 @@ html.no-csstransitions .home-content__main {
 
 .contact-secondary {
     text-align: justify;
-}
-
-.contact-secondary p:last-of-type{
-    margin-bottom: 0;
 }
 
 .contact-secondary h3{
