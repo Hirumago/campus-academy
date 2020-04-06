@@ -3778,3 +3778,13 @@ footer .row {
     text-align: justify;
     margin-bottom: 20px;
 }
+
+.img-lien img, .img-lien-2 img{
+    display: inline-block;
+    height: auto;
+    margin: 0 20px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
