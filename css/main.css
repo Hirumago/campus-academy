@@ -2959,7 +2959,8 @@ html.no-csstransitions .home-content__main {
 .s-contact {
     background-color: #151515;
     background-image: url("../images/contact-bg.jpg");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
+    background-repeat: inherit;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
@@ -3756,4 +3757,24 @@ footer .row {
 
 .mb-10{
     margin-bottom: 10px;
+}
+
+#planning table{
+    border-collapse: collapse;
+}
+
+#planning table th, #planning table td{
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+
+#planning table tr:last-of-type > th{
+    border: none;
+}
+
+#planning p{
+    text-align: justify;
+    margin-bottom: 20px;
 }
