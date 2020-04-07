@@ -801,9 +801,12 @@
         </div>
 
         <div class="row" data-aos="fade-up">
-            <div style="width: 100%;text-align: center">
-                <img src="images/Iphone.png" style="height: 600px">
-                <iframe width="375" height="668" src="https://xd.adobe.com/view/44ab5c57-2291-484e-44c3-8d531089707b-329a/?fullscreen" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div style="width: 100%;text-align: center; position: relative;height: 600px;">
+                <img src="images/Iphone.png" style="height: 100%;z-index: 1;position: absolute"/>
+                <video id="demo-maquette" style="height: 460px;margin-top:72px;margin-left:13px;position:relative;z-index: 3" src="videos/demo.mp4" type="video/mp4" autoplay loop controls></video>
+            </div>
+            <div style="width: 100%;text-align: center; margin-top: 75px;margin-bottom: 35px">
+                <a style="margin-left: 10px" target="_blank" href="https://xd.adobe.com/view/44ab5c57-2291-484e-44c3-8d531089707b-329a/?fullscreen" ><button class="btn--primary" style="max-width: 80%;height: auto;overflow: hidden; ">Découvrez la maquette</button></a>
             </div>
         </div> <!-- end contact-content -->
 
@@ -1437,7 +1440,14 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        var vid = document.getElementById("demo-maquette");
 
+        function playVid() {
+            vid.play();
+        }
+
+    </script>
 </body>
 
 </html>
