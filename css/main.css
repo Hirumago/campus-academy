@@ -2541,6 +2541,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a {
     display: block;
+    text-align: center;
 }
 
 .item-folio__thumb a::before {
