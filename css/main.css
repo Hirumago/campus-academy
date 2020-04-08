@@ -3811,3 +3811,7 @@ footer .row {
 .ta-right{
     text-align: right !important;
 }
+
+#about img{
+    margin: 0 20px;
+}
